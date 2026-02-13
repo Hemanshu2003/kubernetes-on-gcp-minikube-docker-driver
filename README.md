@@ -105,7 +105,7 @@ mv ./kubectl ~/.local/bin/kubectl
 kubectl version --client
 ```
 
-🔗 More info: <https://kubernetes.io/docs>
+🔗 Use the following link for any update/ if you are using AMD/ Facing ERROR: <https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/>
 
 ***
 
@@ -158,7 +158,7 @@ minikube service hello-minikube
 kubectl port-forward service/hello-minikube 7080:8080
 ```
 
-🔗 Minikube docs: <https://minikube.sigs.k8s.io/docs>
+🔗 Use the following link for any update/ if you are using AMD/ Facing ERROR: <https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download#Service>
 
 ***
 
@@ -193,7 +193,7 @@ Open:
 
     http://EXTERNAL_IP:8080
 
-🎉 Your application is now live and accessible!
+🎉 Tada! Your application is now available. Your interface should look like this
 
 ![SS-into-VM](https://github.com/Hemanshu2003/kubernetes-on-gcp-minikube-docker-driver/blob/main/assets/3.png)
 
