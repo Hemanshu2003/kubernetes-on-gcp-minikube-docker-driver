@@ -51,6 +51,9 @@ gcloud compute instances create minikube-vm \
 ## 🐳 **3. Install Docker Inside VM**
 
 SSH into your VM → *minikube-vm*  
+
+![SS-into-VM](https://github.com/Hemanshu2003/kubernetes-on-gcp-minikube-docker-driver/blob/main/assets/1.png)
+
 Run:
 
 ```bash
@@ -182,13 +185,17 @@ gcloud compute firewall-rules create allow-8080 \
 
 ### Step 7.3 — Access from browser:
 
-Find EXTERNAL\_IP from GCP → VM Instances.
+Find EXTERNAL\_IP from GCP → VM Instances. Copy the External IP
+
+![SS-into-VM](https://github.com/Hemanshu2003/kubernetes-on-gcp-minikube-docker-driver/blob/main/assets/2.png)
 
 Open:
 
     http://EXTERNAL_IP:8080
 
 🎉 Your application is now live and accessible!
+
+![SS-into-VM](https://github.com/Hemanshu2003/kubernetes-on-gcp-minikube-docker-driver/blob/main/assets/3.png)
 
 ***
 
@@ -209,6 +216,6 @@ This environment is perfect for learning, experimenting, and testing Kubernetes 
 ## ✨ Author
 
 **Hemanshu Anil Waghmare (CG)**  
-Feel free to reach out on **LinkedIn**!
+Feel free to reach out on **[LinkedIn](http://www.linkedin.com/in/hemanshu-anil-waghmare-50a7a3291)**!
 
 ***
