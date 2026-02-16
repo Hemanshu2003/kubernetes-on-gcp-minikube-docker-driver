@@ -124,6 +124,13 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 minikube start --driver=docker
 ```
 
+In case, if you face permission denied while trying to connect to the Docker daemon socket at unix::xxx
+
+```bash
+#💡Suggestion: Add your user to the 'docker' group: 
+sudo usermod -aG docker $USER && newgrp docker
+```
+
 ***
 
 ## 🚀 **6. Deploy a Sample Application**
